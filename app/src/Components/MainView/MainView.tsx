@@ -12,8 +12,6 @@ export const MainView: React.FC = () => {
                    <Carousel/>
                 </section>
                 <section id="menu">
-                    <h1>Menu</h1>
-                    <p>Welcome to the Menu section.</p>
                     <ProductMenu/>
                 </section>
                 <section id="about">
