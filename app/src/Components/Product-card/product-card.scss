@@ -1,0 +1,22 @@
+.custom-card {
+    width: 100%; 
+    min-width: 200px;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+    background-color: #fff;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
