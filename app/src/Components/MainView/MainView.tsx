@@ -2,6 +2,8 @@ import React from "react";
 import { NavBar } from "../Navbar/NavBar";
 import { Carousel } from "../Carousel/Carousel";
 import ProductMenu from "../Product-menu/product-menu";
+import AboutUs from "../About-us/About-us";
+import StoreInfo from "../Store-info/Store-info";
 
 export const MainView: React.FC = () => {
     return (
@@ -9,14 +11,18 @@ export const MainView: React.FC = () => {
             <NavBar />
             <div>
                 <section id="home">
-                   <Carousel/>
+                    <Carousel />
                 </section>
                 <section id="menu">
-                    <ProductMenu/>
+                    <ProductMenu />
                 </section>
                 <section id="about">
                     <h1>About Us</h1>
-                    <p>Welcome to the About Us section.</p>
+                    <AboutUs />
+                </section>
+                <section id="info">
+                    <h1>Store Info</h1>
+                    <StoreInfo />
                 </section>
                 <section id="contact">
                     <h1>Contact</h1>

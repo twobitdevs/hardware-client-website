@@ -14,6 +14,7 @@ export const NavBar: React.FC = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#menu">Menu</Nav.Link>
+            <Nav.Link href="#info">Store Info</Nav.Link>
             <Nav.Link href="#about">About-us</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
